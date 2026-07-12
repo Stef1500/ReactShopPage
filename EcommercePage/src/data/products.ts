@@ -8,7 +8,7 @@ export interface Product {
 }
 
 
-const products = [
+const products: Product[] = [
   {
     id: 1,
     name: "Wireless Headphones",
