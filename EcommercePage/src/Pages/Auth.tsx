@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { useForm, type SubmitHandler } from "react-hook-form";
-import AuthProvider, { AuthContext } from "../context/AuthContext";
+import { AuthContext } from "../context/AuthContext";
 import { useNavigate } from "react-router-dom";
 
 interface FormValues {
